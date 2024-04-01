@@ -25,6 +25,7 @@
         }
         .logo{
             display: flex;
+            cursor: pointer;
         }
         .logo img{
             width: 106px;
@@ -48,19 +49,21 @@
             padding: 0 24px;
             font-size: 20px;
             height: 52px;
+            cursor: pointer;
         }
         .options p{
             font-family: ZCOOL KuaiLe;
         }
-        .wallet{
+        .btn{
             font-family: poppins;
             margin-top: 48px;
             background: linear-gradient(to right, #ED0137, #F05733);
             font-size: 12px;
             font-weight: 600;
-            height: 20px;
+            height: fit-content;
             padding: 10px 20px;
             border-radius: 15.44px;
+            cursor: pointer;
         }
         .header-description{
             margin-top: 130px;
@@ -69,6 +72,67 @@
             font-size: 25px;
             font-weight: 400;
             line-height: 53.55px;
+        }
+        #introduction .container{
+            display: flex;
+            background-color: #191818;
+        }
+        .intro-line{
+            flex-basis: 50%;
+            margin-left: 15vw;
+        }
+        .intro-line p{
+            font-family: ZCOOL KuaiLe;
+            margin-top: 20px;
+            font-size: 24px;
+            line-height: 28.56px;
+            max-width: 687px;
+        }
+        .sub-title{
+            padding-top: 70px;
+            color: #ED0137;
+            font-size: 44px;
+            font-weight: 400;
+        }
+        .intro-image{
+            flex-basis: 50%;
+        }
+        .intro-image img{
+            width: 795px;
+            margin-top: -80px;
+        }
+        .read-more{
+            font-family: ZCOOL KuaiLe;
+            color: #929292;
+            font-size: 24px;
+        }
+        #introduction .btn{
+            margin-top: 40px;
+            width: fit-content;
+            font-size: 20.03px;
+            font-weight: 400;
+            font-family: ZCOOL KuaiLe;
+            padding: 17.03px 21.29px;
+            border-radius: 21.29px;
+        }
+        #road-map{
+            background: url(https://s3-alpha-sig.figma.com/img/7fb8/c9c7/2e63edc105c3925cfa651946f437c2fd?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UQubOlNQP7gDPm0i0y14xyNybwceVE6LvH4pFWajfVTyNhJB9yQu5IDGCWdXbRG-q6GdYjGL1L8sbnvdGucwinUMCtcEovHkHww3s2I9PbyR~R3Z2xsv5hAEd1GGiKPMOkfk8~5JAiql6VCW1dr5yR8-P0KHsCkb282XauTMQWoLfcCPKpCcUsn6perApmpu58rOqysbIHs2BZqF0ldZqcLl0UBZlHanAX2f2EPRro9JRWpovV96j7S9K8wj0BvkBku4UT6Fuz0YcNfT0AEqjcGNpxMZam~cBrI6KUfJe~-4bOfq3s5LPSJNUOJT2IcyaviCw0SIp2v0W8blriG5~g__);
+        }
+        .map-list{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        .map-list img{
+            width: 237px;
+            height: 349px;
+            margin-bottom: 120px;
+            margin-top: 100px;
+            border-radius: 13.17px;
+            border: 3px solid #ED0137;            
+        }
+        #road-map .sub-title{
+            text-align: center;
         }
     </style>
 </head>
@@ -88,7 +152,7 @@
                         <p>Roadmap</p>
                         <pre><p>Coming Soon  <i class="fa-solid fa-angle-down"></i></p></pre>
                     </div>
-                    <p class="wallet">Connect Wallet</p>
+                    <p class="btn">Connect Wallet</p>
                 </div>
                 <div class="header-description">
                     <h1>Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating Fortunes.</h1>
@@ -102,10 +166,9 @@
             <div class="container">
                 <div class="intro-line">
                     <h2 class="sub-title">Introduction</h2>
-                    <p>We've all been in the mud once, and now we've decided to fight it out. 
-                        Pay tribute to those pioneers of WEB3 and the warriors who dedicated their love to the blockchain. Save the lucky ones alive, join us to save the future! 
-                        Our mission is to empower everyone to share wealth and succed.</p>
-                    <p class="read-more">read more...</p>
+                    <p>We've all been in the mud once, and now we've decided to fight it out. <br> 
+                        Pay tribute to those pioneers of WEB3 and the warriors who dedicated their love to the blockchain. Save the lucky ones alive, join us to save the future! <br>
+                        Our mission is to empower everyone to share wealth and succed. <br><span class="read-more">read more...</span></p>
                     <div class="btn">Documents <i class="fa-solid fa-angle-down"></i></div>
                 </div>
                 <div class="intro-image">
