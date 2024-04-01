@@ -126,14 +126,78 @@
         .map-list img{
             width: 237px;
             height: 349px;
-            margin-bottom: 120px;
-            margin-top: 100px;
             border-radius: 13.17px;
             border: 3px solid #ED0137;            
         }
         #road-map .sub-title{
             text-align: center;
         }
+        #FAQ{
+            background-color: #191818;
+        }
+        #FAQ .container{
+            display: flex;
+            padding-bottom: 50px;
+        }
+        #FAQ .sub-title{
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .faq-image{
+            flex-basis: 40%;
+        }
+        .faq-image img{
+            width: 503px;
+            height: 503px;
+            margin: 8vw 6vw;
+        }
+        .faq-list{
+            flex-basis: 60%;
+        }
+        .f-list{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 77px;
+            width: 640px;
+            border: 1px solid #ED0137;
+            background-color: #0F0F0F;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        .f1-list{
+            width: 640px;
+            height: 219px;
+            border: 1px solid #ED0137;
+            background-color: #0F0F0F;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        .f2-list{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .f-list h4,i{
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .faq4-description{
+            background-color: #191818;
+            max-width: 568px;
+            height: 83px;
+            border-radius: 20px;
+            line-height: 25.56px;
+            margin: 40px auto;
+            display: flex;
+            align-items: center;
+        }
+        .faq4-description p{
+            font-family: ZCOOL KuaiLe;
+            font-size: 15px;
+            margin: 0 20px;
+        }
+
     </style>
 </head>
 <body>
@@ -200,29 +264,31 @@
         <div id="FAQ">
             <div class="container">
                 <div class="faq-image">
-                    <h2 class="sub-title">FAQ</h2>
                     <img src="https://s3-alpha-sig.figma.com/img/7624/956b/bb5893d955ab92e34ab86102a42d6d23?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HgV7vT5TT5nd2W8dk5fNRnM3OPBgds9BiAc7m-NIVeGxFgTTtA7WWQ5ZMckoDDCDhGteotOk-OWZwcLCIDFzVheYJmOyp5~51Fcw3UAQ4z3-xxLScEb9~Q30wiPNmNC8YFHzUXIhB4fbkO9HYJT5GOHc4xfYuks9r2oacXg0wp8EP2G5I0DGGmaQGFpOUFOFgIm1~2meb966vEb5iil6nsV6DPofAYjwd~BZfxT0Keo4vF81Awkae4rqMbR94Zf0zOMFHTC-Pwau3dMlcHGrhKQ98mUljm6YoDx0uQ6zBOcjiu3F94tQom97V8YmNSh3oB3OBwg8TAiBbjFFNNMMdg__" alt="">
                 </div>
                 <div class="faq-list">
-                    <div class="first">
+                    <h2 class="sub-title">FAQ</h2>
+                    <div class="f-list">
                         <h4>1</h4>
                         <h4>Why choose "Savior"?</h4>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
-                    <div class="second">
+                    <div class="f-list">
                         <h4>2</h4>
                         <h4>Why is the IDO duration so long?</h4>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
-                    <div class="third">
+                    <div class="f-list">
                         <h4>3</h4>
                         <h4>When will trading go live?</h4>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
-                    <div class="fourth">
-                        <h4>4</h4>
-                        <h4>When can we claim the tokens?</h4>
-                        <i class="fa-solid fa-angle-down"></i>
+                    <div class="f1-list">
+                        <div class="f2-list">
+                            <h4>4</h4>
+                            <h4>When can we claim the tokens?</h4>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
                         <div class="faq4-description">
                             <p>After the IDO concludes, you can claim the tokens on our official website.</p>
                         </div>
@@ -233,23 +299,25 @@
     </main>
                           <!-- ----------footer-------------- -->
     <footer>
-        <div class="container">
-            <img src="https://s3-alpha-sig.figma.com/img/79e0/db14/6de61e6b7e512045a7cc5fab1681c6dc?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cpsJ9ujNNmUxLskfs8GDymYzW08fZbPn4MpECcoiM7MzoPM1sX74jPoZaz0Jc-x9e6trrl4SgYckZ8ASbS2GryqzTstLgcQdiGR~PjwNjuvwhdkf1qVyFTNoFbXVm6Mu7wOBW5iv~Xiq8~GcRx9Ut-2CHs7s5uqZGup5LqYvrSuYoC-dBSLEZNedJqqi1WZmRvQRNLYtvWQarHdnpazCqwDwGP0yiDR7M7ipkW6u-xlY5KqsI7~JRcvHfmtYbpCycCn2Gji2z8Q57R0VB68DJ14KqqRb8w0NTd0VUW4ZHgS78IoTJ2tPCGtNbuGQejRjJqxBYaA1zSIJLoMwsljoKQ__" alt="">
-            <h4>SITEMAP</h4>
-            <div class="footer-options">
-                <p>Home</p>
-                <p>IDO</p>
-                <p>Tokenomics</p>
-                <p>Road Map</p>
-                <p>Whitepaper</p>
-                <p>Pledge</p>
-                <p>NFT</p>
-                <p>Games</p>
-            </div>
-            <div class="social-handles">
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-telegram"></i>
-                <i class="fa-solid fa-envelope"></i>
+        <div id="footer">
+            <div class="container">
+                <img src="https://s3-alpha-sig.figma.com/img/79e0/db14/6de61e6b7e512045a7cc5fab1681c6dc?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cpsJ9ujNNmUxLskfs8GDymYzW08fZbPn4MpECcoiM7MzoPM1sX74jPoZaz0Jc-x9e6trrl4SgYckZ8ASbS2GryqzTstLgcQdiGR~PjwNjuvwhdkf1qVyFTNoFbXVm6Mu7wOBW5iv~Xiq8~GcRx9Ut-2CHs7s5uqZGup5LqYvrSuYoC-dBSLEZNedJqqi1WZmRvQRNLYtvWQarHdnpazCqwDwGP0yiDR7M7ipkW6u-xlY5KqsI7~JRcvHfmtYbpCycCn2Gji2z8Q57R0VB68DJ14KqqRb8w0NTd0VUW4ZHgS78IoTJ2tPCGtNbuGQejRjJqxBYaA1zSIJLoMwsljoKQ__" alt="">
+                <h4>SITEMAP</h4>
+                <div class="footer-options">
+                    <p>Home</p>
+                    <p>IDO</p>
+                    <p>Tokenomics</p>
+                    <p>Road Map</p>
+                    <p>Whitepaper</p>
+                    <p>Pledge</p>
+                    <p>NFT</p>
+                    <p>Games</p>
+                </div>
+                <div class="social-handles">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
             </div>
         </div>
     </footer>
