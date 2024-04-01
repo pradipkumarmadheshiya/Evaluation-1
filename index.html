@@ -5,105 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saviour</title>
     <script src="https://kit.fontawesome.com/3847ae3c9c.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&display=swap" rel="stylesheet">
     <style>
-        #header{
-            /* Rectangle 18 */
-            position: absolute;
-            width: 1512px;
-            height: 588px;
-            background: url(https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U0pPaOMWXR-t72pP3ftgjHJXWtponYsJrenQMv37s4za-g12WmsVx462srUk-VxD8hYPdllQsMQNwL-5l8gdFfYKkIJN8BXmdRgw8sC~WGGVDhLa-lNqS8gu5wSL9JuBwqlowKRSop5T2-52ouVY7JKQwn60O4ep5ui~Iwzp9oJ9RqAzvCuuSuyaB9WnIVauKab6Wn6She-aR7YM2yGgsdsxI8ew~dKEJTQOlfr1fXJkbEoxsk7F9CTgzobgvxEoOSL-yNdvL7Z8p83kFFDPgMbY4MeP7q6Sq4jetVcjVMyYai6AARWuygeEWX~wAc5j5S9NKUYyLcR1Jlf0Mw4t5w__);
+        @import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Shojumaru&family=ZCOOL+KuaiLe&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            font-family: Shojumaru;
+            color: #fff;
+            margin: 0;
+            padding: 0;
         }
-        #header .logo img{
-            /* Logo Savior red copy 1 */
-            position: absolute;
+        #header{
+            background: url(https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cGns9Q4dqBu3ougRwlpJPYwqFeyRLIjpONLLWQpCNqtXG6o7deKd9F2u2OlIL8Ash8iddpV6imlUg2iFENDsYXX8hJarK-YYO0KG3PQjcHzfc18DtryQfQzzXeabAoO0NGjLQnjlIjlgz4iDuOPqu1olBIPzKFVSzvyvew3PRr-YGql4Nm26rSXD3Y2JV0QUhROCF0NHY0vwZww2M~JMFDXFvW3NzavyoCdqwxw5ra1rWqho~jPbpM142G3OWPDKdDYZZ4GIDY0O68Jbx~v6-5UcouxNVcjwNYxvCpc-7igN8cdUKQn5zhQv8mY6V2U7yr2wB5mpXVSt2tW74FMidA__);
+            height: 588px;
+        }
+        .box{
+            display: flex;
+            justify-content: space-around;
+        }
+        .logo{
+            display: flex;
+        }
+        .logo img{
             width: 106px;
             height: 117px;
-            background: url(https://s3-alpha-sig.figma.com/img/79e0/db14/6de61e6b7e512045a7cc5fab1681c6dc?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cpsJ9ujNNmUxLskfs8GDymYzW08fZbPn4MpECcoiM7MzoPM1sX74jPoZaz0Jc-x9e6trrl4SgYckZ8ASbS2GryqzTstLgcQdiGR~PjwNjuvwhdkf1qVyFTNoFbXVm6Mu7wOBW5iv~Xiq8~GcRx9Ut-2CHs7s5uqZGup5LqYvrSuYoC-dBSLEZNedJqqi1WZmRvQRNLYtvWQarHdnpazCqwDwGP0yiDR7M7ipkW6u-xlY5KqsI7~JRcvHfmtYbpCycCn2Gji2z8Q57R0VB68DJ14KqqRb8w0NTd0VUW4ZHgS78IoTJ2tPCGtNbuGQejRjJqxBYaA1zSIJLoMwsljoKQ__);
+            margin-top: 21px;
         }
-        #header .logo p{
-            /* Saviour */
-            position: absolute;
-            width: 122px;
-            height: 32px;
-            font-family: 'ZCOOL KuaiLe';
-            font-style: normal;
-            font-weight: 400;
+        .logo p{
+            font-family: ZCOOL KuaiLe;
+            margin-top: 45px;
+            margin-left: 7px;
             font-size: 32px;
-            line-height: 32px;
-            /* identical to box height */
-            text-align: center;
-            color: #FFFFFF;
+            font-weight: 400;
         }
         .options{
-            /* Frame 1822 */
-            /* Auto layout */
             display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            padding: 16px 24px;
+            margin-top: 40px;
             gap: 24px;
-            isolation: isolate;
-            position: relative;
-            width: 583px;
-            height: 52px;
-            background: #191818;
+            background-color: #191818;
+            align-items: center;
             border-radius: 20px;
+            padding: 0 24px;
+            font-size: 20px;
+            height: 52px;
         }
         .options p{
-            /* Home */
-        width: 53px;
-        height: 20px;
-        font-family: 'ZCOOL KuaiLe';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 20px;
-        /* identical to box height */
-        text-align: center;
-        color: #FFFFFF;
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        z-index: 0;
+            font-family: ZCOOL KuaiLe;
         }
         .wallet{
-            /* Connect Wallet */
-            position: absolute;
-            width: 95px;
-            height: 18px;
-            left: 16px;
-            top: 10px;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 600;
+            font-family: poppins;
+            margin-top: 48px;
+            background: linear-gradient(to right, #ED0137, #F05733);
             font-size: 12px;
-            line-height: 18px;
-            /* identical to box height */
-            color: #FFFFFF;
+            font-weight: 600;
+            height: 20px;
+            padding: 10px 20px;
+            border-radius: 15.44px;
         }
         .header-description{
-            /* Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating Fortunes. */
-            position: absolute;
-            width: 1262px;
-            height: 108px;
-            font-family: 'Shojumaru';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 45px;
-            line-height: 119%;
-            /* or 54px */
+            margin-top: 130px;
+            max-width: 1262px;
             text-align: center;
-            color: #FBF6F6;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 53.55px;
         }
     </style>
 </head>
@@ -121,13 +86,9 @@
                         <p>IDO</p>
                         <p>Tokenomics</p>
                         <p>Roadmap</p>
-                        <p>Coming Soon <i class="fa-solid fa-angle-down"></i></p>
+                        <pre><p>Coming Soon  <i class="fa-solid fa-angle-down"></i></p></pre>
                     </div>
-                    <div class="wallet">
-                        <div>
-                            Connect Wallet
-                        </div>
-                    </div>
+                    <p class="wallet">Connect Wallet</p>
                 </div>
                 <div class="header-description">
                     <h1>Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating Fortunes.</h1>
